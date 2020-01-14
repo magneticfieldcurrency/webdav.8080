@@ -1,0 +1,708 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="sv">
+  
+
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="shortcut icon" href="/static/images/favicon.ico">
+        
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/app.css">
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin,latin-ext">
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.css">
+    <!-- language selector -->
+    <link rel="stylesheet" type="text/css" href="/static/css/jquery.uls.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/jquery.uls.grid.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/jquery.uls.lcd.css">
+    <!-- use RTL css for specific languages -->
+    <!-- legacy -->
+    <link rel="shortcut icon" href="/static/images/favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon">
+
+    <title>Fedoraalternativ att hämta</title>
+    </head>
+    <body class="home">
+        <!-- site-content -->
+        <div id="site-content">
+            <div class="container">
+    <div class="row product-header">
+      <div class="col-xs-12 text-center">
+       <a href="/sv/"><img src="/static/images/alt-logo.png" alt="Fedora Alt Logo"></a>
+       <p class="thin productlogo">Alternativa versioner och format av Fedora att hämta</p>
+      </div>
+    </div>
+  </div><header id="head">
+    <div class="jumbotron product-feature bluebox">
+      <div class="container">
+        <div class="row">
+        <div class="col-xs-12 caption no-pad bottom-space">
+          <h1 class="text-center">Alternativ att hämta</h1>
+          <p class="thin text-justify">Dessa Fedora att hämta hämtningar är antingen för speciella ändamål — för att testa, för specifika arkitekturer — eller en mer standardversion av Fedora i alternativa format såsom nätverksinstallationsformat eller formaterad för att hämta med bittorrent.</p>
+          <p class="thin text-justify">Denna sida är till för att fungera som en central resurs för att hitta alternativa versioner av Fedora.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header><div class="jumbotron newsbox">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center index">
+              <h3>Fedora 31 är släppt!  Hämta den nu.</h3>
+            </div>
+          </div>
+        </div>
+      </div><div class="jumbotron main-head hidden-xs hidden-sm">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Nätverksinstallerare</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 product-feature">
+        <p>Dessa är väldigt små avbilder som du kan använda för att installera Fedora över nätet.</p>
+        </div>
+        <div class="col-md-9">
+          <div class="white">
+            <div class="col-md-1">
+            <img src="/static/images/server.png">
+            </div>
+            <div class="col-md-4">
+            <h3>Fedora Server</h3>
+            </div>
+            <div class="col-md-3">
+            <p>64-bitars 600 MB ISO</p>
+            </div>
+            <div class="col-md-4">
+            <p class="download"><a href="https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso">Hämta</a> | <a href="/verify">Verifiera</a></p>
+            </div>
+          </div>
+<!--
+          <div class="white">
+            <div class="col-md-1">
+            <img src="/static/images/workstation.png" />
+            </div>
+            <div class="col-md-4">
+            <h3>${_('Fedora Workstation')}</h3>
+            </div>
+            <div class="col-md-3">
+            <p>${Markup(_('64 bit %sMB ISO')) % global_variables.iso_size['x86_64_workstation_net']}</p>
+            </div>
+            <div class="col-md-4">
+            <p class="download"><a href="${global_variables.path['download']}/${global_variables.release['curr_id']}/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="/verify">${_('Verify')}</a></p>
+            </div>
+          </div>
+          <div class="white">
+            <div class="col-md-1">
+            <img src="/static/images/workstation.png" />
+            </div>
+            <div class="col-md-4">
+            <h3>${_('Fedora Workstation')}</h3>
+            </div>
+            <div class="col-md-3">
+            <p>${Markup(_('32 bit %sMB ISO')) % global_variables.iso_size['i386_workstation_net']}</p>
+            </div>
+            <div class="col-md-4">
+            <p class="download"><a href="${global_variables.path['download_arch']}/${global_variables.release['curr_id']}/Workstation/i386/iso/Fedora-Workstation-netinst-i386-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="/verify">${_('Verify')}</a></p>
+            </div>
+          </div>
+	  -->
+        </div>
+	<div class="col-md-12">
+	  <p><em>Note: You can select different editions of Fedora to install with this netinstall. You are not limited to Server edition only.</em></p>
+	</div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head visible-xs">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Nätverksinstallerare</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Dessa är väldigt små avbilder som du kan använda för att installera Fedora över nätet.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/server.png">
+          </div>
+          <div class="col-xs-9">
+          <h3>Fedora Server</h3>
+          <p class="download"><a href="https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso">Hämta</a> | <a href="/verify">Verifiera</a></p>
+          </div>
+        </div>
+<!--
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/workstation.png" />
+          </div>
+          <div class="col-xs-9">
+          <h3>${_('Workstation')}</h3>
+          <p class="download"><a href="${global_variables.path['download']}/${global_variables.release['curr_id']}/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="/verify">${_('Verify')}</a></p>
+          </div>
+        </div>
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/workstation.png" />
+          </div>
+          <div class="col-xs-9">
+          <h3>${_('Workstation')}</h3>
+          <p class="download"><a href="${global_variables.path['download_arch']}/${global_variables.release['curr_id']}/Workstation/i386/iso/Fedora-Workstation-netinst-i386-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="/verify">${_('Verify')}</a></p>
+          </div>
+        </div>
+-->
+      </div>
+      <div class="col-xs-12">
+	<p><em>Note: You can select different editions of Fedora to install with this netinstall. You are not limited to Server edition only.</em></p>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head visible-sm">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Nätverksinstallerare</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Dessa är väldigt små avbilder som du kan använda för att installera Fedora över nätet.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/server.png">
+          </div>
+          <div class="col-sm-5">
+          <h3>Fedora Server</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso">Hämta</a> | <a href="/verify">Verifiera</a></p>
+          </div>
+        </div>
+<!--
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/workstation.png" />
+          </div>
+          <div class="col-sm-5">
+          <h3>${_('Fedora Workstation')}</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="${global_variables.path['download']}/${global_variables.release['curr_id']}/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="/verify">${_('Verify')}</a></p>
+          </div>
+        </div>
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/workstation.png" />
+          </div>
+          <div class="col-sm-5">
+          <h3>${_('Fedora Workstation')}</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="${global_variables.path['download_arch']}/${global_variables.release['curr_id']}/Workstation/i386/iso/Fedora-Workstation-netinst-i386-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="/verify">${_('Verify')}</a></p>
+          </div>
+        </div>
+-->
+      </div>
+      <div class="col-sm-12">
+	<p><em>Note: You can select different editions of Fedora to install with this netinstall. You are not limited to Server edition only.</em></p>
+      </div>
+    </div>
+  </div><div class="jumbotron top-space main-head hidden-xs hidden-sm">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Att hämta med bittorrent</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Fedora erbjuder mycket att hämta med bittorrent.  Nå vår katalog över torrent:ar nedan:</p>
+        </div>
+        <div class="col-xs-12 text-center">
+        <p><a class="btn btn-lg btn-primary" href="//torrent.fedoraproject.org" role="button">torrent.fedoraproject.org</a></p>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Alternativa arkitekturer</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Detta är ytterligare arkitekturer som stödjs av Fedora utöver standarduppsättningen.</p>
+        </div>
+        <div class="col-xs-12 text-center">
+        <p><a class="btn btn-lg btn-primary" href="alt/" role="button">Hämta</a></p>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Molnbasavbilder</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Dessa är standard molnbasavbilder</p>
+        </div>
+        <div class="col-xs-12 text-center">
+        <p><a class="btn btn-lg btn-primary" href="cloud/" role="button">Hämta</a></p>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-lg hidden-xs hidden-sm hidden-md">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-2">
+        <h2>Allting</h2>
+        </div>
+        <div class="col-xs-10">
+        <div class="experts sx">Endast experter!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 product-feature">
+        <p>Välj mellan tusentals paket för att anpassa din installation; förutsätter en snabb nätverksförbindelse.</p>
+        </div>
+        <div class="col-md-9">
+          <div class="white">
+            <div class="col-md-1">
+            <img src="/static/images/ev.png">
+            </div>
+            <div class="col-md-4">
+            <h3>Allting</h3>
+            </div>
+            <div class="col-md-3">
+            <p>64-bitars 601 MB ISO</p>
+            </div>
+            <div class="col-md-4">
+            <p class="download"><a href="https://download.fedoraproject.org/pub/fedora/linux/releases/31/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-31-1.9.iso">Hämta</a> | <a href="./static/checksums/Fedora-Everything-31-1.9-x86_64-CHECKSUM">Verifiera</a></p>
+            </div>
+          </div>
+<!--
+          <div class="white">
+            <div class="col-md-1">
+            <img src="/static/images/ev.png" />
+            </div>
+            <div class="col-md-4">
+            <h3>${_('Everything')}</h3>
+            </div>
+            <div class="col-md-3">
+            <p>${Markup(_('32 bit %sMB ISO')) % global_variables.iso_size['i386_ev']}</p>
+            </div>
+            <div class="col-md-4">
+            <p class="download"><a href="${global_variables.path['download_arch']}/${global_variables.release['curr_id']}/Everything/i386/iso/Fedora-Everything-netinst-i386-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="${global_variables.path['checksums']}/Fedora-Everything-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}-i386-CHECKSUM">${_('Verify')}</a></p>
+            </div>
+          </div>
+-->
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-xs">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-6">
+        <h2>Allting</h2>
+        </div>
+        <div class="col-xs-6">
+        <div class="experts sx">Endast experter!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Välj mellan tusentals paket för att anpassa din installation; förutsätter en snabb nätverksförbindelse.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/ev.png">
+          </div>
+          <div class="col-xs-9">
+          <h3>Allting</h3>
+          <p class="download"><a href="https://download.fedoraproject.org/pub/fedora/linux/releases/31/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-31-1.9.iso">Hämta</a> | <a href="./static/checksums/Fedora-Everything-31-1.9-x86_64-CHECKSUM">Verifiera</a></p>
+          </div>
+        </div>
+<!--
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/ev.png" />
+          </div>
+          <div class="col-xs-9">
+          <h3>${_('Everything')}</h3>
+          <p class="download"><a href="${global_variables.path['download']}/${global_variables.release['curr_id']}/Everything/i386/iso/Fedora-Everything-netinst-i386-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="${global_variables.path['checksums']}/Fedora-Everything-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}-i386-CHECKSUM">${_('Verify')}</a></p>
+          </div>
+        </div>
+-->
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-sm-md hidden-xs hidden-lg">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-3">
+        <h2>Allting</h2>
+        </div>
+        <div class="col-xs-9">
+        <div class="experts sx">Endast experter!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Välj mellan tusentals paket för att anpassa din installation; förutsätter en snabb nätverksförbindelse.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/ev.png">
+          </div>
+          <div class="col-sm-5">
+          <h3>Allting</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="https://download.fedoraproject.org/pub/fedora/linux/releases/31/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-31-1.9.iso">Hämta</a> | <a href="./static/checksums/Fedora-Everything-31-1.9-x86_64-CHECKSUM">Verifiera</a></p>
+          </div>
+        </div>
+<!--
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/ev.png" />
+          </div>
+          <div class="col-sm-5">
+          <h3>${_('Everything')}</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="${global_variables.path['download']}/${global_variables.release['curr_id']}/Everything/i386/iso/Fedora-Everything-netinst-i386-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}.iso">${_('Download')}</a> | <a href="${global_variables.path['checksums']}/Fedora-Everything-${global_variables.release['curr_id']}-${global_variables.release['RC_gold']}-i386-CHECKSUM">${_('Verify')}</a></p>
+          </div>
+        </div>
+-->
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-lg hidden-xs hidden-sm hidden-md">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Testavbilder</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 product-feature">
+        <p>Dessa är utvecklingsversioner av Fedora som inte släppts men gjorts tillgängliga för att testa nästa officiella Fedorautgåva.</p>
+        </div>
+        <div class="col-lg-9">
+          <div class="white">
+            <div class="col-lg-1">
+            <img src="/static/images/night.png">
+            </div>
+            <div class="col-lg-6">
+            <h3>Nattliga byggen</h3>
+            </div>
+            <div class="col-lg-4 col-lg-offset-1">
+            <p class="download"><a href="https://www.happyassassin.net/nightlies.html">Visa avbilder →</a></p>
+            </div>
+          </div>
+          <div class="white">
+            <div class="col-lg-1">
+            <img src="/static/images/tc.png">
+            </div>
+            <div class="col-lg-6">
+            <h3>Andra sammansättningar (beta/TC:er/RC:er)</h3>
+            </div>
+            <div class="col-lg-4 col-lg-offset-1">
+            <p class="download"><a href="https://dl.fedoraproject.org/pub/alt/stage">Visa avbilder →</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-xs">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Testavbilder</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Dessa är utvecklingsversioner av Fedora som inte släppts men gjorts tillgängliga för att testa nästa officiella Fedorautgåva.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/night.png">
+          </div>
+          <div class="col-xs-9">
+          <h3>Nattliga byggen</h3>
+          <p class="download"><a href="https://www.happyassassin.net/nightlies.html">Visa avbilder →</a></p>
+          </div>
+        </div>
+        <div class="white">
+          <div class="col-xs-3">
+          <img src="/static/images/tc.png">
+          </div>
+          <div class="col-xs-9">
+          <h3>Andra testsammansättningar</h3>
+          <p class="download"><a href="https://dl.fedoraproject.org/pub/alt/stage">Visa avbilder →</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-sm-md hidden-xs hidden-lg">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-12">
+        <h2>Testavbilder</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Dessa är utvecklingsversioner av Fedora som inte släppts men gjorts tillgängliga för att testa nästa officiella Fedorautgåva.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/night.png">
+          </div>
+          <div class="col-sm-5">
+          <h3>Nattliga byggen</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="https://www.happyassassin.net/nightlies.html">Visa avbilder →</a></p>
+          </div>
+        </div>
+        <div class="white">
+          <div class="col-sm-3">
+          <img src="/static/images/tc.png">
+          </div>
+          <div class="col-sm-5">
+          <h3>Andra testsammansättningar</h3>
+          </div>
+          <div class="col-sm-4">
+          <p class="download"><a href="https://dl.fedoraproject.org/pub/alt/stage">Visa avbilder →</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-lg hidden-xs hidden-sm hidden-md">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-2">
+        <h2>Rawhide</h2>
+        </div>
+        <div class="col-xs-10">
+          <div class="experts sx">Endast experter!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 product-feature">
+        <p>Ta reda på mer om <a href="https://fedoraproject.org/wiki/Releases/Rawhide">Rawhide</a>, vår ständigt rörliga utvecklingsversion. Rawhide har avancerade användare, testare och paketunderhållare som målgrupp.</p>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-xs">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-6">
+        <h2>Rawhide</h2>
+        </div>
+        <div class="col-xs-6">
+          <div class="experts sx">Endast experter!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 product-feature">
+        <p>Ta reda på mer om <a href="https://fedoraproject.org/wiki/Releases/Rawhide">Rawhide</a>, vår ständigt rörliga utvecklingsversion. Rawhide har avancerade användare, testare och paketunderhållare som målgrupp.</p>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron main-head top-space visible-sm-md hidden-xs hidden-lg">
+    <div class="container using">
+      <div class="row">
+        <div class="col-xs-3">
+        <h2>Rawhide</h2>
+        </div>
+        <div class="col-xs-9">
+          <div class="experts sx">Endast experter!</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 product-feature">
+        <p>Ta reda på mer om <a href="https://fedoraproject.org/wiki/Releases/Rawhide">Rawhide</a>, vår ständigt rörliga utvecklingsversion. Rawhide har avancerade användare, testare och paketunderhållare som målgrupp.</p>
+        </div>
+      </div>
+    </div>
+  </div><div class="jumbotron whitesupport">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2>Hjälpresurser</h2>
+        </div>
+      </div>
+      <div class="row top-margin">
+        <div class="col-xs-12 text-center help">
+          <h4><i class="fa fa-fw header-icon fa-question-circle"></i>Allmän hjälp med att använda Fedora</h4>
+          <h4><p>Behöver du hjälp med Fedora?  Ta en titt på <a href="https://ask.fedoraproject.org/">Ask Fedora</a> där du kan läsa arkiv med frågor från andra användare, eller fråga din egna fråga.</p></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <!-- /site-content -->
+        <!-- bottom -->
+        <div id="bottom">
+            
+        <footer id="footer">
+        <div class="foot">
+            <div class="container">
+                <div class="row footerlinks">
+                    <div class="col-sm-3 col-xs-6 widget">
+                        <h3 class="widget-title">Om</h3>
+                        <div class="widget-body">
+                            <dl>
+                                <dd><a href="//fedoraproject.org/wiki/Overview">Om Fedora</a></dd>
+                                <dd><a href="//getfedora.org/sv/sponsors">Sponsorer</a></dd>
+                                <dd><a href="//fedoramagazine.org">Fedoratidningen</a></dd>
+                                <dd><a href="https://fedoraproject.org/wiki/Legal:Main#Legal">Juridik</a></dd>
+                                <dd><a href="//docs.fedoraproject.org/fedora-project/project/code-of-conduct.html">Fedoras uppförandekod</a></dd>
+                            </dl>
+                            <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/TheFedoraProject" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/112917221531140868607" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/fedora" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 widget">
+                        <h3 class="widget-title uppercase">Hämta</h3>
+                        <div class="widget-body">
+                          <dl>
+                            <dd><a href="//getfedora.org/sv/workstation/download">Hämta Fedora Workstation</a></dd>
+                            <dd><a href="//getfedora.org/sv/server/download">Hämta Fedora Server</a></dd>
+                            <dd><a href="//getfedora.org/sv/atomic/download">Hämta Fedora Atomic</a></dd>
+                            <dd><a href="//spins.fedoraproject.org">Fedora Spinn</a></dd>
+                            <dd><a href="//labs.fedoraproject.org">Fedora Lab</a></dd>
+                            <dd><a href="//arm.fedoraproject.org">Fedora ARM<span class="sup">®</span></a></dd>
+                            <dd><a href="//alt.fedoraproject.org/">Alternativ att hämta</a></dd>
+                          </dl>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 widget">
+                        <h3 class="widget-title">Support</h3>
+                        <div class="widget-body">
+                            <dl>
+                                <dd><a href="//fedoraproject.org/wiki/Communicating_and_getting_help">Få hjälp</a></dd>
+                                <dd><a href="//ask.fedoraproject.org/">Fråga Fedora</a></dd>
+                                <dd><a href="//fedoraproject.org/wiki/Common_F31_bugs">Vanliga fel</a></dd>
+                                <dd><a href="//developer.fedoraproject.org/">Fedoras utvecklarportal</a></dd>
+                                <dd><a href="//docs.fedoraproject.org/en-US/fedora/f31/install-guide/">Installationshandledning</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 widget">
+                        <h3 class="widget-title">Gå med</h3>
+                        <div class="widget-body">
+                            <dl>
+                                <dd><a href="//fedoraproject.org/wiki/Join">Gå med i Fedora</a></dd>
+                                <dd><a href="http://fedoraplanet.org">Planet Fedora</a></dd>
+                                <dd><a href="//fedoraproject.org/wiki/SIGs">Fedora SIG</a></dd>
+                                <dd><a href="//admin.fedoraproject.org/accounts/">Fedoras kontosystem</a></dd>
+                                <dd><a href="http://fedoracommunity.org/">Fedora-gemenskapen</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div> <!-- /row of widgets -->
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="widget-body">
+                            <a href="http://www.redhat.com/"><img class="rh-logo" src="/static/images/sponsors/sidebar/redhat.png" alt="Red Hat Logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="widget-body">
+                            <p class="sponsor">Fedora sponsras av Red Hat.</p>
+                            <p class="sponsor"><a href="//www.redhat.com/en/technologies/linux-platforms/articles/relationship-between-fedora-and-rhel">Ta reda på mer om relationen mellan Red Hat och Fedora →</a></p>
+                            <p class="copy">© 2017 Red Hat, Inc. med flera. Skicka kommentarer och rättelser till <a href="//pagure.io/fedora-websites">gruppen för webbplatser</a>.  Skicka kommentarer om översättningen till svenska till <a href="mailto:tp-sv@listor.tp-sv.se">tp-sv@listor.tp-sv.se</a>.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget-body">
+                            <div class="pull-left language-header">
+                              <span class="active uls-trigger lang-dropdown">Byt språk</span>
+                                <form action="" method="GET" style="visibility:hidden" id="langSelect" class="lang-dropdown">
+                                  <input type="hidden" name="lang" id="selectedLang" value="">
+                        <!-- Allow uls script to change language through legacy system -->
+                                  <input type="submit" value="OK">
+                                </form>
+                              </div>
+                        </div>
+                    </div>
+                </div> <!-- /row of widgets -->
+            </div>
+        </div>
+    </footer>
+
+        </div>
+        <!-- /bottom -->
+        
+    <script type="text/javascript" src="/static/js/jquery.expander.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.query.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.slideshow.minified.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="/static/js/init.js"></script>
+    <script type="text/javascript" src="/static/js/regulations.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.uls.data.js"></script>
+	  <script type="text/javascript" src="/static/js/jquery.uls.data.utils.js"></script>
+	  <script type="text/javascript" src="/static/js/jquery.uls.lcd.js"></script>
+	  <script type="text/javascript" src="/static/js/jquery.uls.languagefilter.js"></script>
+	  <script type="text/javascript" src="/static/js/jquery.uls.regionfilter.js"></script>
+	  <script type="text/javascript" src="/static/js/jquery.uls.core.js"></script>
+    
+		<!-- This file is generated, don't edit here -->
+		<script type="text/javascript">
+		/* This list is generated, don't edit here */
+		$(function() {
+			$( '.uls-trigger' ).uls( {
+				onSelect : function( language ) {
+					var languageName = $.uls.data.getAutonym( language );
+					$( '.uls-trigger' ).text( languageName );
+                    $('#selectedLang').val(language);
+                    $('#langSelect').trigger('submit');
+				},
+				languages: { 'en' : 'English' , 'af': 'Afrikaans', 'ar': 'عربي', 'as': 'অসমীয়া', 'ast': 'Asturianu', 'bg': 'български език', 'bn': 'বাংলা', 'bn_IN': 'বাংলা (ভারত)', 'br': 'Brezhoneg', 'ca': 'Català', 'cs': 'česky', 'da': 'dansk', 'de': 'Deutsch', 'el': 'Ελληνικά', 'en': 'English', 'es': 'Español', 'eu': 'euskera', 'fa': 'پارسی', 'fi': 'suomi', 'fr': 'Français', 'fur': 'Friulian', 'gl': 'galego', 'gu': 'ગુજરાતી', 'he': 'עברית', 'hi': 'हिन्दी', 'hu': 'Magyar', 'ia': 'Interlingua', 'id': 'Indonesia', 'is': 'Íslenska', 'it': 'Italiano', 'ja': '日本語', 'ka': 'ქართული', 'ko': '한국어', 'lv': 'latviešu', 'ml': 'മലയാളം', 'mr': 'मराठी', 'nb': 'Norsk bokmål', 'nl': 'Nederlands', 'pa': 'ਪੰਜਾਬੀ', 'pl': 'polski', 'pt': 'Português', 'pt_BR': 'Português brasileiro', 'ro': 'română', 'ru': 'Pусский', 'sk': 'slovenčina', 'sq': 'Shqip', 'sr': 'српски', 'sv': 'svenska', 'ta': 'தமிழ்', 'te': 'తెలుగు', 'tg': 'тоҷикӣ', 'tr': 'Tϋrkçe', 'uk': 'українська', 'vi': 'Tiếng Việt', 'zh_CN': '简体中文', 'zh_TW': '正體中文'}
+			} );
+		} );
+		</script>
+		
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="${path}/static/js/html5shiv.js"></script>
+    <script type="text/javascript" src="${path}/static/js/respond.min.js"></script>
+    <![endif]-->
+
+    </body>
+</html>

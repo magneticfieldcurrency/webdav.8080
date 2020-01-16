@@ -1,0 +1,4 @@
+[general]
+drivers = alsa
+[alsa]
+mmap = true

@@ -1,3 +1,0 @@
-throw this in /etc/profile:
-
-export XAUTHORITY=/home/ry/.Xauthority

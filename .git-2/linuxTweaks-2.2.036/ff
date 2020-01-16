@@ -1,3 +1,0 @@
-#!/bin/sh
-## fast fox!
-/usr/bin/firefox "$@"

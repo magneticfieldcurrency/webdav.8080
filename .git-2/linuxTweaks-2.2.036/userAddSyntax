@@ -1,3 +1,0 @@
-useradd -m -g users -G \
-  audio,disk,floppy,games,lp,sys,uucp,video \
-  -s /bin/bash johndoe

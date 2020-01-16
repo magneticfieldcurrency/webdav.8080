@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=clip-handler
-Comment=A clipboard wrapper to work around xdg annoyances.
-Exec=clip-handler %U
